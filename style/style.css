@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  color: aliceblue;
+}
+
+.main__card__pokemon {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 30px;
+  margin: 15px;
+}
+
+.card__pokemon {
+  background-color: lightskyblue;
+  /* height: 25vh; */
+  /* width: 25vh; */
+  padding: 25px;
+  border-radius: 30px;
+}
+
+.card__pokemon-image {
+  display: block;
+  /* background-color: red; */
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 125px;
+}
+
+.card__pokemon-text-name {
+  color: black;
+  font-size: 20px;
+}
+
+.buttons__next__back {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 10px;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button_text{
+    color: white;
+}
